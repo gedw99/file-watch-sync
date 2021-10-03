@@ -22,7 +22,20 @@ In example folder:
 
 ``` 
 make run
+
+file-watch-sync -config /Users/apple/workspace/go/src/github.com/gedw99/file-watch-sync/example/config.toml
+/Users/apple/workspace/go/src/github.com/gedw99/file-watch-sync/example
+Indexing: /Users/apple/workspace/go/src/github.com/gedw99/file-watch-sync/example/config.toml, CHMOD
+Checksuming: /Users/apple/workspace/go/src/github.com/gedw99/file-watch-sync/example/config.toml, CHMOD
+Indexing: /Users/apple/workspace/go/src/github.com/gedw99/file-watch-sync/example/config.toml, WRITE
+Checksuming: /Users/apple/workspace/go/src/github.com/gedw99/file-watch-sync/example/config.toml, WRITE
+Config file changed: config.toml
+Indexing: /Users/apple/workspace/go/src/github.com/gedw99/file-watch-sync/example/config.toml, CHMOD
+Checksuming: /Users/apple/workspace/go/src/github.com/gedw99/file-watch-sync/example/config.toml, CHMOD
+
 ``` 
+
+
 
 ## Deps
 
