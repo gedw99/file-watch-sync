@@ -5,7 +5,9 @@ cli tool to configure directory to watch using a PUB SUB pattern.
 
 ## Usage:
 
+``` 
 go install github.com/gedw99/file-watch-sync@latest
+``` 
 
 ## Deps
 
