@@ -8,7 +8,8 @@ git-push:
 	git push
 
 install:
-	go install .
+	go install -v . 
+	which $(LIB_NAME)
 
 run:
 	$(LIB_NAME) -config $(PWD)/config.toml
