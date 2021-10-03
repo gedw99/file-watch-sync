@@ -16,7 +16,13 @@ make install
 go install github.com/gedw99/file-watch-sync@latest
 ``` 
 
+## Examples
 
+In example folder:
+
+``` 
+make run
+``` 
 
 ## Deps
 
